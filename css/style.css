@@ -218,6 +218,110 @@ nav {
 }
 
 
+/* footer */
+
+
+footer {
+    width: 100%;
+    height: 80vh;
+
+    background-color: #23272a;
+}
+
+.content-footer {
+    width: 70%;
+    padding-top: 5rem;
+    border-bottom: 2px solid #6c82ce;
+}
+
+.content-footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.content-footer > * {
+    float: left;
+}
+
+footer .social {
+    width: 15rem;
+}
+
+footer .title {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    color: #7289da;
+}
+
+footer .social img {
+    width: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+footer form {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+footer select {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer li a {
+    padding: 0.2rem 0.5rem;
+}
+
+
+
+/* table stile */
+
+
+footer table {
+
+    margin-left: 10rem;
+}
+
+footer th {
+    text-align: left;
+    color: #6c82ce;
+}
+
+footer td {
+    width: 12rem;
+    height: 2.5rem;
+}
+
+footer .content-end {
+    width: 70%;
+    padding-top: 3rem;
+    position: relative;
+}
+
+footer .content-end button {
+    position: absolute;
+    right: 0;
+
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+
+    background-color: #6c82ce;
+
+    color: white;
+}
+
+
+
+
+
+
 
 
 
