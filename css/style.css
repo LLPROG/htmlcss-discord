@@ -1,0 +1,168 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.centered {
+    margin:0 auto;
+}
+
+.section-main li {
+    display: inline-block;
+}
+
+section {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+/* style */
+
+/* header */
+
+.section-main {
+    height: 85vh;
+
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.section-main header {
+    width: 100%;
+
+    padding: 2rem 10rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.section-main header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.section-main header > * {
+    float: left;
+}
+
+
+.section-main img {
+    padding: 0 8rem;
+    height: 2.2rem;
+    /* transform: translateY(50%); */
+}
+
+.section-main li {
+    list-style: none;
+}
+
+nav {
+    margin-left: 4.5rem;
+}
+
+.section-main a {
+    line-height: .4rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+.section-main header button {
+    margin-left: 15rem;
+    padding: 0.8rem 1rem;
+    border-radius: 30px;
+    font-size: 1em;
+    border: transparent;
+}
+
+/* section main */
+
+.hero {
+    width: 54vw;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.8em;
+    padding: 2rem;
+}
+
+.hero p {
+    padding: 2rem;
+    font-size: 1.5em;
+}
+
+.hero button {
+    font-size: 1.3em;
+    border-radius: 30px;
+    padding: 1.3rem 1.8rem;
+    border: transparent;
+}
+
+.hero .button-style {
+    color: white;
+    background-color: #23272a;
+    margin-left: 2rem;
+}
+
+/* sectione invite */
+
+.section-invite {
+    width: 80vw;
+    height: 100vh;
+    color: black;
+    padding: 10rem 5rem;
+}
+
+
+.content {
+    
+}
+
+.section-invite::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content > * {
+    float: left;
+}
+
+.cont-invite {
+    width: 24vw;
+    padding: 2rem;
+    margin-left: 4rem;
+}
+
+.section-invite h1 {
+    font-size: 3em;
+}
+
+.section-invite p {
+    font-size: 1.3em;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
